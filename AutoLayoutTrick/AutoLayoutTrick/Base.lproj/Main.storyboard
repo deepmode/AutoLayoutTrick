@@ -34,9 +34,15 @@
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="9hm-bA-e3J" firstAttribute="centerX" secondItem="aGN-7L-Sbp" secondAttribute="centerX" id="9eL-Lt-hxi"/>
+                                    <constraint firstAttribute="height" constant="80" id="Te7-Sc-UR1"/>
                                     <constraint firstAttribute="bottom" secondItem="9hm-bA-e3J" secondAttribute="bottom" constant="25" id="t1w-4g-RtH"/>
                                     <constraint firstItem="9hm-bA-e3J" firstAttribute="top" secondItem="aGN-7L-Sbp" secondAttribute="top" constant="25" id="vwn-mR-V52"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Te7-Sc-UR1"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2G5-Al-w4C">
                                 <rect key="frame" x="0.0" y="152" width="375" height="515"/>

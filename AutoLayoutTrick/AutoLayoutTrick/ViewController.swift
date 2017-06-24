@@ -45,6 +45,13 @@ class ViewController: UIViewController {
             zeroHeightConstraint?.isActive = true
             //self.heightConstraint?.constant = 0.0
         }
+        
+//        UIView.animate(withDuration: 0.25, delay: 0.0, options: [.curveEaseInOut], animations: {
+//            self.view.setNeedsLayout()
+//        }) { (complete) in
+//            
+//        }
+        
         UIView.animate(withDuration: 0.25) {
             self.view.layoutIfNeeded()
         }
